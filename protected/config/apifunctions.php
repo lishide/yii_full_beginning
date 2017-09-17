@@ -449,7 +449,7 @@ function __getErrorMsg($error_code)
     $errors[105] = array('File extension invalid', '文件扩展名不合法');
     $errors[106] = array('Invitecode invalid', '邀请码不可用');
     $errors[107] = array('Shopname already existed', '店铺名已被使用');
-    $errors[108] = array('Music already existed', '音乐已存在');
+    $errors[108] = array('already existed', '已存在');//练习，增加
     $errors[110] = array('Password is not correct', '密码不正确');
     $errors[305] = array('Interval since the last SMS request is less than 60 seconds', '距上次有效短信请求间隔小于60秒');
     $errors[306] = array('Too many SMS request of same phone in one hour', '一小时内同一号码的短信请求数太多');
