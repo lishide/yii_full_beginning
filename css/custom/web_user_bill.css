@@ -1,0 +1,24 @@
+[v-cloak] {
+    display: none;
+}
+
+p {
+    margin: 0;
+}
+
+#title{
+    margin-top: 2rem;
+}
+
+h2{
+    font-size: 26px;
+    margin-top: 1rem;
+}
+
+.detail-list{
+    margin-top: 1rem;
+}
+
+[data-am-widget=tabs]{
+    margin: 2rem 0 0 0;
+}

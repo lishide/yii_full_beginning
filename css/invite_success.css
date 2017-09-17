@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0;
+}
+
+.top_ticket {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    background-color: #F8DA21;
+}
+
+.top_ticket img{
+    width: 80%;
+    margin-top: 30px;
+}
+
+.triangle {
+    height: 150px;
+    background: #F8DA21 url("../images/invite/bg.png") no-repeat bottom;
+    background-size: 100% 100%;
+}
+
+.text_area {
+    margin-top: 30px;
+    text-align: center;
+    color: #E04D84;
+}
+
+.text_area p {
+    color: #A2A3A3;
+}
+
+.below_button{
+    margin: 40px 10px;
+}
+
+.below_button button {
+    width: 100%;
+    height: 42px;
+    border-radius: 6px;
+    background-color: #E04D84;
+    text-align: center;
+}
+
+.below_button a button {
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    border: 0;
+    padding: 0;
+    border-radius: 6px;
+}

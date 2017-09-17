@@ -1,0 +1,11 @@
+[v-cloak] {
+    display: none;
+}
+
+p {
+    margin: 0;
+}
+
+#detail-list{
+    margin-top: 2rem;
+}

@@ -1,0 +1,41 @@
+[v-cloak] {
+    display: none;
+}
+
+p {
+    margin: 0;
+}
+
+.detail {
+    background: #fff;
+}
+
+.detail-h2 {
+    text-align: center;
+    font-size: 150%;
+    margin: 40px 0;
+}
+
+.title {
+    color: #1f8dd6;
+    margin: 0.5rem 0 0 0;
+}
+
+.price {
+    color: #000;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.detail-p {
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+.detail-mb {
+    margin-bottom: 30px;
+}
+
+.btn-buy {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}

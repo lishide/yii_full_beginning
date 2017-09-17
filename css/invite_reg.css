@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E7E8E9;
+    width: 100%;
+}
+
+.box {
+    height: 280px;
+    background-color: #FA137A;
+    width: 100%;
+}
+
+.box #box_area {
+    margin-top: -50px;
+    background-color: #FA137A;
+    border: none;
+    border-radius: 50%;
+    width: 100%;
+    height: 100px;
+    overflow:hidden;
+    -moz-box-shadow:1px 2px 2px #333333;
+    -webkit-box-shadow:1px 2px 2px #333333;
+    box-shadow:1px 2px 2px #333333;
+}
+
+.box #text {
+    text-align: center;
+    margin-top: -36px;
+    font-size: 18px;
+    color: #FCFDFE;
+    text-shadow:1px 0px 4px #333333;
+}
+
+.box #user{
+    margin-top: 55px;
+    padding: 0 15px;
+}
+
+.box #avatar{
+    margin-right: 20px;
+    border-radius: 100%;
+    float: left;
+}
+
+.box #user img{
+    width: 60px;
+    height: 60px;
+    border: 5px solid #ffffff;
+    border-top-left-radius: 999px; /* 左上角 */
+    border-top-right-radius: 999px; /* 右上角 */
+    border-bottom-right-radius: 999px; /* 右下角 */
+    border-bottom-left-radius: 999px; /* 左下角 */
+    border-radius: 999px;
+    background-color: #ccc;
+    background-clip: padding-box;
+}
+
+.box #share_info {
+    font-size: 16px;
+    line-height: 30px;
+    color: #FCFDFE;
+}
+
+.box #share_info span {
+    color: #FDF870;
+}
+
+.input_area {
+    margin-top: 10px;
+}
+
+.inpt {
+    background: #ffffff;
+    margin: 5px 0;
+    height: 40px;
+    padding: 0;
+}
+
+
+.inpt input {
+    width: calc(100% - 55px);
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    border: 0;
+    padding-left: 30px;
+
+    padding-right: 55px;
+
+    -webkit-box-sizing : border-box;
+    box-sizing: border-box;
+}
+
+.ico {
+    z-index: 998;
+    position: absolute;
+    left: 0;
+    padding: 0 5px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ico img {
+    margin-top: 12px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.inpt_right {
+    z-index: 999;
+    position: absolute;
+    right: 0;
+    color: #A9A9A9;
+    border-left: 2px solid #BABABB;
+    padding: 0 10px;
+    line-height: 28px;
+    margin-top: 6px;
+    font-size: 14px;
+    vertical-align: middle;
+    height: 28px;
+    display: inline-block;
+}
+
+.inpt_right input {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: none;
+    height: 28px;
+    color: #A9A9A9;
+}
+
+.input_area #input_info {
+    margin-left: 10px;
+    margin-top: 6px;
+    font-size: 14px;
+    color: #AFB1B1;
+}
+
+.below_button{
+    margin: 40px 10px;
+}
+
+.below_button button {
+    width: 100%;
+    height: 42px;
+    border-radius: 6px;
+    background-color: #FA137A;
+    text-align: center;
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    border: 0;
+    padding: 0;
+}
+
+.below_button #info {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #AFB1B1;
+}
+
+.below_button #info a {
+    text-decoration: none;
+    color: #1BADF8;
+}
+
+.tips {
+    margin: 10px;
+    font-size: 14px;
+    color: #e41731;
+}

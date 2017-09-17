@@ -1,0 +1,5 @@
+ul.yiiPager {list-style: none;}
+.yiiPager li {display: inline-block; padding:0px;}
+.yiiPager li a {display: inline-block; background: #d2d2d2; padding:1px 10px; border-radius: 2px;}
+.yiiPager li a:hover {background: #f30; color:#fff;}
+.yiiPager li.selected a {background: #f60; color:#fff;}
